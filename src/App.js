@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+//декларативный стиль
 export const App = () => {
   return (
     <div className="App">
@@ -17,6 +18,9 @@ export const App = () => {
         >
           Learn React
         </a>
+				<p>
+				  {Date().slice(4, 15)}
+			  </p>
       </header>
     </div>
   );
